@@ -1,0 +1,42 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Test, type-check, and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Craft Anything project/session metadata (keep locally, out of Git)
+/craft.json
+/feed.json
+/questions.json
+/usage.json
+/build-activity.log
+/build-activity.old.log
+/assets.json
+/transcript.json
+/extract-transcript.json
+/agent-session.jsonl
+/inbox/
+/checks/
+/capture/
+/reference/
+/attachments/
+/investigation.cany/
+/pinned
